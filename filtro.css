@@ -1,0 +1,33 @@
+body{/se agrego color al body/
+  background-color: darkgray;
+}
+.input {/*se mando a llamar correctamnete la clase correctamente*/
+  width: 500px;
+  height: 40px;
+  font-size: 18px;
+}
+
+#lista-de-productos {
+  display:flex;
+  gap: 4rem;/*se separo a las imagnes*/
+  margin-top: 20px;
+ 
+ 
+}
+
+.producto {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;/*se definio el color de la card de la imagen en blanco*/
+  border-radius: 10%;/*se le dio borde a las imaganes*/
+}
+
+.producto img {
+  width: 70%;
+  height: auto
+}
